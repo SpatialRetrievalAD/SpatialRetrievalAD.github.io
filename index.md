@@ -16,12 +16,13 @@ affiliations: |
   <sup>2</sup>Shanghai Jiao Tong University<br>
   <sup>3</sup>Key Laboratory of Target Cognition and Application Technology, Aerospace Information Research Institute, Chinese Academy of Sciences<br>
   <sup>4</sup>University of Science and Technology of China
-paper: https://aaa
-# video: https://aaa
+paper: https://spatialretrievalad.github.io/
 code: https://github.com/SpatialRetrievalAD/
 data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 ---
+
+<br>
 
 <div class="columns is-centered has-text-centered video-container">
   <div class="column is-four-fifths">
@@ -145,7 +146,11 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 
 
-<!-- Data Example -->
+
+
+
+
+<!-- Dataset Visualization -->
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Dataset Visualization</h2>
@@ -180,6 +185,162 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
     </div>
   </div>
 </div>
+
+
+
+
+
+
+<!-- Quantitative Comparison -->
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+    <div class="column is-four-fifths">
+        <h2>Comparison</h2>
+        <div class="content has-text-justified">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Generative World Model Results -->
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p><strong>Generative World Model Results.</strong> Conditioning UniMLVG and MagicDriveDiT on geographic images leads to lower FVD and FID, effectively preventing scene drift and preserving geometric consistency during rollouts. This demonstrates that spatial retrieval provides a structural scaffold for coherent world modeling.</p>
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/result/result_generative.jpg" alt="generative" style="width: 65%;">
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/visualization/visualization_generative.jpg" alt="visualization_generative" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Online Mapping Results -->
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p><strong>Online Mapping Results.</strong> Integrating geographic priors into MapTR and MapTRv2 substantially improves online mapping. The extra background information enables recovery of occluded lanes.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/result/result_mapping.jpg" alt="mapping" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/visualization/visualization_mapping.jpg" alt="visualization_mapping" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Occupancy Results -->
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p><strong>Occupancy Results.</strong> Extending FB-OCC and FlashOCC yields consistent mIoU improvements, particularly on static categories. The incorporation of geographic priors further boosts mIoU on static terrain, as they provide additional background information.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+        <img src="./static/image/result/result_occupancy.jpg" alt="occupancy" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/visualization/visualization_occupancy.jpg" alt="visualization_occupancy" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- End-to-end Planning Results -->
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+      <p><strong>End-to-end Planning Results.</strong> We evaluate how spatial retrieval improves safe planning with VAD. Geographic priors provide stable road-layout information, compensating for sensing failures under occlusion or low light. With similar trajectory accuracy, our method achieves better safety margins, reducing the collision rate from 0.55% to 0.48% in challenging night scenes.</p>
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/result/result_planning.jpg" alt="planning" style="width: 100%;">
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+  <div class="column is-four-fifths">
+    <div class="content">
+      <img src="./static/image/visualization/visualization_planning.jpg" alt="visualization_planning" style="width: 70%;">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Conclusion -->
+<div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+        <h2>Conclusion</h2>
+        <div class="content has-text-justified">
+        &emsp;&emsp;In this work, we present the spatial retrieval paradigm for AD, introducing geographic data as an additional input. We extend nuScenes with geographic data by Google Maps APIs and evaluate five key AD tasks on the extended <a href="https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data" target="_blank">nuScenes-Geography</a>  dataset. We propose a general plug-and-play Spatial Retrieval Adapter module as an intuitive baseline to incorporate geographic data. We propose Reliability Estimation  to adaptively fuse geographic information based on the reliability of the retrieved data. Extensive experiments show that the proposed paradigm can enhance the performance of multiple AD tasks, demonstrating the substantial potential of the new paradigm.
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 
 <!-- Citation Section -->
 <div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
@@ -224,45 +385,3 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 
 
-
-
-
-
-<!-- > Note: This is an example of a Jekyll-based project website template: [Github link](https://github.com/shunzh/project_website).\
-> The following content is generated by ChatGPT. The figure is manually added. -->
-
-<!-- ## Background
-The paper "On Computable Numbers, with an Application to the Entscheidungsproblem" was published by Alan Turing in 1936. In this groundbreaking paper, Turing introduced the concept of a universal computing machine, now known as the Turing machine.
-
-## Objective
-Turing's main objective in this paper was to investigate the notion of computability and its relation to the Entscheidungsproblem (the decision problem), which is concerned with determining whether a given mathematical statement is provable or not.
-
-
-## Key Ideas
-1. Turing first presented the concept of a "computable number," which refers to a number that can be computed by an algorithm or a definite step-by-step process.
-2. He introduced the notion of a Turing machine, an abstract computational device consisting of an infinite tape divided into cells and a read-write head. The machine can read and write symbols on the tape, move the head left or right, and transition between states based on a set of rules.
-3. Turing demonstrated that the set of computable numbers is enumerable, meaning it can be listed in a systematic way, even though it is not necessarily countable.
-4. He proved the existence of non-computable numbers, which cannot be computed by any Turing machine.
-5. Turing showed that the Entscheidungsproblem is undecidable, meaning there is no algorithm that can determine, for any given mathematical statement, whether it is provable or not.
-
-![Turing Machine](/static/image/Turing_machine.png)
-
-*Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
-
-## Table: Comparison of Computable and Non-Computable Numbers
-
-| Computable Numbers | Non-Computable Numbers |
-|-------------------|-----------------------|
-| Rational numbers, e.g., 1/2, 3/4 | Transcendental numbers, e.g., π, e |
-| Algebraic numbers, e.g., √2, ∛3 | Non-algebraic numbers, e.g., √2 + √3 |
-| Numbers with finite decimal representations | Numbers with infinite, non-repeating decimal representations |
-
-He used the concept of a universal Turing machine to prove that the set of computable functions is recursively enumerable, meaning it can be listed by an algorithm.
-
-## Significance
-Turing's paper laid the foundation for the theory of computation and had a profound impact on the development of computer science. The Turing machine became a fundamental concept in theoretical computer science, serving as a theoretical model for studying the limits and capabilities of computation. Turing's work also influenced the development of programming languages, algorithms, and the design of modern computers.
-
-## Citation
-```
-
-``` -->
