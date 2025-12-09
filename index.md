@@ -18,7 +18,7 @@ affiliations: |
   <sup>4</sup>University of Science and Technology of China<br>
   📧 Primary Contact:  <a href="https://jiaxiaosong1002.github.io/" target="_blank">Xiaosong Jia</a> (jiaxiaosong@fudan.edu.cn)
 paper: https://arxiv.org/abs/2512.06865/
-code: https://github.com/SpatialRetrievalAD/
+code: https://github.com/SpatialRetrievalAD/SpatialRetrievalAD-Dataset-Devkit
 data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 ---
