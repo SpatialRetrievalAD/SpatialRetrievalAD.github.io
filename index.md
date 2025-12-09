@@ -16,7 +16,7 @@ affiliations: |
   <sup>2</sup>Shanghai Jiao Tong University<br>
   <sup>3</sup>Key Laboratory of Target Cognition and Application Technology, Aerospace Information Research Institute, Chinese Academy of Sciences<br>
   <sup>4</sup>University of Science and Technology of China
-paper: https://spatialretrievalad.github.io/
+paper: https://arxiv.org/abs/2512.06865/
 code: https://github.com/SpatialRetrievalAD/
 data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
@@ -326,7 +326,7 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 
 <!-- Conclusion -->
-<div class="columns is-centered has-text-centered">
+<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
     <div class="column is-four-fifths">
         <h2>Conclusion</h2>
         <div class="content has-text-justified">
@@ -343,17 +343,31 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
 
 
 <!-- Citation Section -->
-<div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+<div class="columns is-centered has-text-centered" style="margin-bottom: 0rem;">
     <div class="column is-four-fifths">
         <h2>Citation</h2>
-        <div class="content">
-            <p>If you use SpatialRetrievalAD in your research, please cite our paper:</p>
-            <pre><code>
-</code></pre>
-        </div>
     </div>
 </div>
 
+<!-- Citation Section -->
+<div class="columns is-centered" style="margin-bottom: 3rem;">
+    <div class="column is-four-fifths">
+        <div class="content">
+        <p>&emsp;&emsp;If you use SpatialRetrievalAD in your research, please cite our paper:</p>
+        <pre><code>
+@misc{spad,
+      title={Spatial Retrieval Augmented Autonomous Driving}, 
+      author={Xiaosong Jia and Chenhe Zhang and Yule Jiang and Songbur Wong and Zhiyuan Zhang and Chen Chen and Shaofeng Zhang and Xuanhe Zhou and Xue Yang and Junchi Yan and Yu-Gang Jiang},
+      year={2025},
+      eprint={2512.06865},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.06865}, 
+}
+        </code></pre>
+        </div>
+    </div>
+</div>
 
 
 
@@ -381,7 +395,6 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
         </div>
     </div>
 </div>
-
 
 
 
