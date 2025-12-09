@@ -15,7 +15,8 @@ affiliations: |
   <sup>1</sup>Institute of Trustworthy Embodied AI, Fudan University<br>
   <sup>2</sup>Shanghai Jiao Tong University<br>
   <sup>3</sup>Key Laboratory of Target Cognition and Application Technology, Aerospace Information Research Institute, Chinese Academy of Sciences<br>
-  <sup>4</sup>University of Science and Technology of China
+  <sup>4</sup>University of Science and Technology of China<br>
+  📧 Primary Contact: [Xiaosong Jia](https://jiaxiaosong1002.github.io/) (jiaxiaosong@fudan.edu.cn)
 paper: https://arxiv.org/abs/2512.06865/
 code: https://github.com/SpatialRetrievalAD/
 data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
