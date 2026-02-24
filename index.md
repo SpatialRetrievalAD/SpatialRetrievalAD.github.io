@@ -4,7 +4,7 @@ permalink: /
 
 title: |
   Spatial Retrieval Augmented
-  Autonomous Driving
+  Autonomous Driving (CVPR 2026)
 
 authors: |
   Xiaosong Jia<sup>1*</sup>, Chenhe Zhang<sup>1*</sup>, Yule Jiang<sup>2*</sup>, Songbur Wong<sup>2*</sup>,<br>
