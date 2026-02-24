@@ -356,14 +356,12 @@ data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
         <div class="content">
         <p>&emsp;&emsp;If you use SpatialRetrievalAD in your research, please cite our paper:</p>
         <pre><code>
-@misc{spad,
+@inproceedings{jia2026spatial,
       title={Spatial Retrieval Augmented Autonomous Driving}, 
       author={Xiaosong Jia and Chenhe Zhang and Yule Jiang and Songbur Wong and Zhiyuan Zhang and Chen Chen and Shaofeng Zhang and Xuanhe Zhou and Xue Yang and Junchi Yan and Yu-Gang Jiang},
-      year={2025},
-      eprint={2512.06865},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.06865}, 
+       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+       year={2026}
+},
 }
         </code></pre>
         </div>
