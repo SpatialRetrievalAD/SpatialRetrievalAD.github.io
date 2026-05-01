@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spatialretrievalad.github.io/sitemap.xml
