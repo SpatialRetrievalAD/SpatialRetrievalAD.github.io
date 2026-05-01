@@ -6,6 +6,8 @@ title: |
   Spatial Retrieval Augmented
   Autonomous Driving (CVPR 2026)
 
+description: "Official project page for Spatial Retrieval Augmented Autonomous Driving, a retrieval-augmented framework and dataset benchmark for autonomous driving using nuScenes-Geography."
+
 authors: |
   Xiaosong Jia<sup>1*</sup>, Chenhe Zhang<sup>1*</sup>, Yule Jiang<sup>2*</sup>, Songbur Wong<sup>2*</sup>,<br>
   Zhiyuan Zhang<sup>2</sup>, Chen Chen<sup>3</sup>, Shaofeng Zhang<sup>4</sup>, Xuanhe Zhou<sup>2</sup>, Xue Yang<sup>2†</sup>,<br>
@@ -20,6 +22,7 @@ affiliations: |
 paper: https://arxiv.org/abs/2512.06865/
 code: https://github.com/SpatialRetrievalAD/SpatialRetrievalAD-Dataset-Devkit
 data: https://huggingface.co/datasets/SpatialRetrievalAD/nuScenes-Geography-Data
+
 
 ---
 
